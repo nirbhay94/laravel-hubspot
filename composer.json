@@ -9,8 +9,6 @@
             "email": "nirbhay@heypayless.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
     "require": {},
     "autoload": {
         "psr-4": {
