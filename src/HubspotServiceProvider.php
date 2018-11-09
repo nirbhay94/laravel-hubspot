@@ -3,6 +3,7 @@
 namespace Nirbhay\Hubspot;
 
 use Illuminate\Support\ServiceProvider;
+use Nirbhay\Hubspot\Http\Controllers\ContactController;
 
 class HubspotServiceProvider extends ServiceProvider
 {
@@ -15,6 +16,11 @@ class HubspotServiceProvider extends ServiceProvider
 
     public function register()
     {
+
+        $this->app->bind('laravel-hubspot',function ()
+        {
+            return new ContactController();
+        });
 
     }
 }

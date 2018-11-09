@@ -1,6 +1,6 @@
-This will create contact in hubspot and get all contacts from hubspot
+<h2>This will create contact in hubspot and get all contacts from hubspot</h2>
 
-Installation
+<h3>Installation</h3>
 
 1.composer require Nirbhay94/laravel-hubspot
 
@@ -14,3 +14,4 @@ Installation
 
 6.Add 'HubSpot' => Nirbhay\Hubspot\Facades\Hubspot::class to your aliases in your config/app.php file.
 
+<h3>Installation</h3>

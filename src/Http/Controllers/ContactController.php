@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Log;
 class ContactController extends Controller
 {
 
-    public function getContacts()
+    public function contacts()
     {
         $hapikey = config('hubspot.hapikey');
         $endpoint = 'https://api.hubapi.com/contacts/v1/lists/all/contacts/all?hapikey=' . $hapikey;
@@ -23,7 +23,7 @@ class ContactController extends Controller
         return $response;
     }
 
-    public function postContact(Request $request)
+    public function createContact(Request $request)
     {
         $arr = array(
             'properties' => array(

@@ -9,5 +9,5 @@ class Hubspot extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'Nirbhay\Hubspot\Hubspot'; }
+    protected static function getFacadeAccessor() { return 'laravel-hubspot'; }
 }
