@@ -1,4 +1,4 @@
-<h2>This will create contact in hubspot and get all contacts from hubspot</h2>
+<h2>This will create contact in hubspot and get all contacts from hubspot for Laravel 5</h2>
 
 <h3>Installation</h3>
 
