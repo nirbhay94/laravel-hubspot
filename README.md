@@ -2,17 +2,17 @@
 
 <h3>Installation</h3>
 
-1.composer require Nirbhay94/laravel-hubspot
+1. <code>composer require Nirbhay94/laravel-hubspot</code>
 
 2.Get a HubSpot API Key from the Intergrations page of your HubSpot account.
 
-3.php artisan vendor:publish --provider="Nirbhay\Hubspot\HubspotServiceProvider" --tag="config" will create a config/hubspot.php file.
+3.<code>php artisan vendor:publish --provider="Nirbhay\Hubspot\HubspotServiceProvider" --tag="config"</code> will create a config/hubspot.php file.
 
-4.Add your HubSpot API key into the your .env file: HAPI_KEY=yourApiKey
+4.Add your HubSpot API key into the your <code>.env</code> file: <code>HAPI_KEY=yourApiKey</code>
 
-5.Add Nirbhay\Hubspot\HubspotServiceProvider::class to your providers in your config/app.php file.
+5.Add <code>Nirbhay\Hubspot\HubspotServiceProvider::class</code> to your providers in your config/app.php file.
 
-6.Add 'HubSpot' => Nirbhay\Hubspot\Facades\Hubspot::class to your aliases in your config/app.php file.
+6.Add <code>'HubSpot' => Nirbhay\Hubspot\Facades\Hubspot::class</code> to your aliases in your config/app.php file.
 
 <h3>Usage</h3>
 
