@@ -1,6 +1,6 @@
 {
     "name": "nirbhay/hubspot",
-    "description": "This will create contact in hubspot",
+    "description": "This will create contact in hubspot and list contacts",
     "type": "library",
     "license": "MIT",
     "authors": [
