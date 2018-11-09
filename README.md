@@ -23,8 +23,9 @@ You can use the facade as a dependency:
 <h4>Contacts List</h4>
 <pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">//</span>Echo all contacts </span></span>
 <span class="pl-s1"><span class="pl-smi">$response</span> <span class="pl-k">=</span> <span class="pl-c1">HubSpot</span><span class="pl-k">::</span>contacts()<span class="pl-k">;</span>
+</pre>
 
 <h4>Create a Contact</h4>
 <pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">//</span>Create a contact </span></span>
 <span class="pl-s1"><span class="pl-smi">$response</span> <span class="pl-k">=</span> <span class="pl-c1">HubSpot</span><span class="pl-k">::</span>createContact($request)<span class="pl-k">;</span>
-
+</pre>
