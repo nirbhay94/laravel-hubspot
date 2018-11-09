@@ -2,15 +2,15 @@
     "name": "nirbhay/hubspot",
     "description": "This will create contact in hubspot and list contacts",
     "keywords": [ "hubspot", "api","laravel" ],
-    "license": "MIT",
+    "version": "1.0",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nirbhay",
             "email": "nirbhay@heypayless.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
