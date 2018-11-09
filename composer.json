@@ -3,6 +3,7 @@
     "description": "This will create contact in hubspot and list contacts",
     "keywords": [ "hubspot", "api","laravel" ],
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Nirbhay",
