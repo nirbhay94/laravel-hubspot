@@ -1,0 +1,19 @@
+{
+    "name": "nirbhay/hubspot",
+    "description": "This will create contact in hubspot",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nirbhay",
+            "email": "nirbhay@heypayless.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nirbhay\\Hubspot\\": "src/"
+        }
+    },
+}
