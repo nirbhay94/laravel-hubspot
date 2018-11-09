@@ -1,8 +1,7 @@
 {
-    "name": "nirbhay/hubspot",
+    "name": "Nirbhay94/laravel-hubspot",
     "description": "This will create contact in hubspot and list contacts",
     "keywords": [ "hubspot", "api","laravel" ],
-    "version": "1.0",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +12,6 @@
     ],
     "require": {},
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Nirbhay\\Hubspot\\": "src/"
