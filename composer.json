@@ -15,5 +15,5 @@
         "psr-4": {
             "Nirbhay\\Hubspot\\": "src/"
         }
-    },
+    }
 }
