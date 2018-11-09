@@ -12,6 +12,8 @@
         }
     ],
     "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Nirbhay\\Hubspot\\": "src/"
