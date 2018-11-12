@@ -3,7 +3,6 @@
 namespace Nirbhay\Hubspot\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
@@ -20,49 +19,49 @@ class ContactController extends Controller
         return $response;
     }
 
-    public function createContact(Request $request)
+    public function createContact($request)
     {
         $arr = array(
             'properties' => array(
                 array(
                     'property' => 'email',
-                    'value' => $request->get('email','')
+                    'value' => isset($request['email']) ? $request['email'] : ''
                 ),
                 array(
                     'property' => 'firstname',
-                    'value' => $request->get('firstname','')
+                    'value' => isset($request['firstname']) ? $request['firstname'] : ''
                 ),
                 array(
                     'property' => 'lastname',
-                    'value' => $request->get('lastname','')
+                    'value' => isset($request['lastname']) ? $request['lastname'] : ''
                 ),
                 array(
                     'property' => 'phone',
-                    'value' => $request->get('phone','')
+                    'value' => isset($request['email']) ? $request['phone'] : ''
                 ),
                 array(
                     'property' => 'website',
-                    'value' => $request->get('website','')
+                    'value' => isset($request['website']) ? $request['website'] : ''
                 ),
                 array(
                     'property' => 'company',
-                    'value' => $request->get('company','')
+                    'value' => isset($request['company']) ? $request['company'] : ''
                 ),
                 array(
                     'property' => 'address',
-                    'value' => $request->get('address','')
+                    'value' => isset($request['address']) ? $request['address'] : ''
                 ),
                 array(
                     'property' => 'city',
-                    'value' => $request->get('city','')
+                    'value' => isset($request['city']) ? $request['city'] : ''
                 ),
                 array(
                     'property' => 'state',
-                    'value' => $request->get('state','')
+                    'value' => isset($request['state']) ? $request['state'] : ''
                 ),
                 array(
                     'property' => 'zip',
-                    'value' => $request->get('zip','')
+                    'value' => isset($request['zip']) ? $request['zip'] : ''
                 )
             )
         );
