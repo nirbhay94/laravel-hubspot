@@ -2,7 +2,7 @@
 
 <h3>Installation</h3>
 
-1.<code>composer require nirbhay94/laravel-hubspot</code>
+1.<code>composer require nirbhay94/laravel-hubspot:dev-master</code>
 
 2.Get a HubSpot API Key from the Intergrations page of your HubSpot account.
 
