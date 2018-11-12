@@ -6,13 +6,13 @@
 
 2.Get a HubSpot API Key from the Intergrations page of your HubSpot account.
 
-3.<code>php artisan vendor:publish --provider="Nirbhay\Hubspot\HubspotServiceProvider"</code> will create a config/hubspot.php file.
+3.Add your HubSpot API key into the your <code>.env</code> file: <code>HAPI_KEY=yourApiKey</code>
 
-4.Add your HubSpot API key into the your <code>.env</code> file: <code>HAPI_KEY=yourApiKey</code>
+4.Add <code>Nirbhay\Hubspot\HubspotServiceProvider::class</code> to your providers in your config/app.php file.
 
-5.Add <code>Nirbhay\Hubspot\HubspotServiceProvider::class</code> to your providers in your config/app.php file.
+5.Add <code>'HubSpot' => Nirbhay\Hubspot\Facades\Hubspot::class</code> to your aliases in your config/app.php file.
 
-6.Add <code>'HubSpot' => Nirbhay\Hubspot\Facades\Hubspot::class</code> to your aliases in your config/app.php file.
+6.<code>php artisan vendor:publish --provider="Nirbhay\Hubspot\HubspotServiceProvider"</code> will create a config/hubspot.php file.
 
 <h3>Usage</h3>
 
